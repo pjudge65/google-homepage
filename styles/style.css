@@ -1,0 +1,178 @@
+h1 {
+    color: red;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    align-items: center;
+
+}
+#usericon {
+    border-radius: 50%;
+
+}
+
+#menuicon {
+    border-radius: 50%;
+}
+
+#usericon:hover {
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+}
+
+#menuicon:hover {
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+}
+
+#leftside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+#rightside {
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+footer {
+    min-height: 6vh;
+    margin-top: auto;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#footleft {
+    display: flex;
+    margin-left: 30px;
+    gap: 25px;
+}
+
+#footright {
+    display: flex;
+    margin-right: 35px;
+    margin-left: 115px;
+    gap: 25px;
+}
+
+
+
+#googleimg {
+    width: 37vh;
+    height: auto;
+    display: flex;
+
+    margin: 15px auto 24px auto;
+}
+
+#searchtext {
+    width: 68vh;
+    border: none;
+    outline: none;
+    
+}
+
+#form-search {
+    display: inline;
+}
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+#search-input {
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 15px;
+    height: 30px;
+}
+
+#search-input:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+#search-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#magnify {
+    display: inline;
+}
+
+#microphone {
+    height: 20px;
+}
+
+.mainbuttons {
+    background-color: rgb(245, 245, 245);
+
+    border: none;
+    height: 39px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mainbuttons:hover {
+    border: 1px solid #ccc;
+}
+
+#microphonebutton {
+    background-color: transparent;
+    border: none;
+}
+
+#microphonebutton:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer a{
+    color: gray;
+}
+
+header a{
+    color: black;
+}
